@@ -3,6 +3,7 @@ import React from "react";
 import './App.css';
 import { NavBar } from './components/navbar';
 import { Header } from './components/header';
+import { Experiences } from './components/experience';
 import './index.css';
 
 class App extends React.Component {
@@ -11,6 +12,7 @@ class App extends React.Component {
       <div className="App">
         <NavBar />
         <Header />
+        <Experiences />
       </div>
     );
   }

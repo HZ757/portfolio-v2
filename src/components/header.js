@@ -15,8 +15,8 @@ class Header extends React.Component {
           <h1 class="text-white text-2xl mt-4">Computer Science Co-op at University of Waterloo</h1>
           <a href={resume} class="text-white underline mt-5">Resume PDF</a>
           <div class="mt-5 flex flex-row self-center">
-            <a href="https://github.com/HZ757" class="mx-5"><img src={githubSVG} alt="Github" class="fill-white h-10" /></a>
-            <a href="https://www.linkedin.com/in/hz757/" class="mx-5"><img src={linkedInSVG} alt="LinkedIn" class="fill-white h-10" /></a>
+            <a href="https://github.com/HZ757" class="mx-1"><img src={githubSVG} alt="Github" class="fill-white h-10" /></a>
+            <a href="https://www.linkedin.com/in/hz757/" class="mx-1"><img src={linkedInSVG} alt="LinkedIn" class="fill-white h-10" /></a>
           </div>
         </div>
     );
