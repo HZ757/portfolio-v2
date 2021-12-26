@@ -1,11 +1,32 @@
-import logo from './logo.svg';
+import React from "react";
+//import logo from './logo.svg';
 import './App.css';
+import { NavBar } from './components/navbar';
+import { Header } from './components/header';
+import './index.css';
 
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <NavBar />
+        <Header />
+      </div>
+    );
+  }
+}
+
+export default App;
+
+/*
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="text-3xl font-bold">
+          Hello world!
+        </h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -23,3 +44,4 @@ function App() {
 }
 
 export default App;
+*/
