@@ -13,7 +13,7 @@ class NavBarButton extends React.Component {
 class NavBar extends React.Component {
   render() {
     return (
-        <div class="flex flex-row fixed top-0 left-0 right-0 bg-black h-12 z-50">
+        <div class="flex flex-row fixed top-0 left-0 right-0 bg-cyan-900 h-12 z-50">
             <div class="mr-auto ml-5 text-4xl text-white min-w-fit font-medium">
                 HENRY ZHANG
             </div>
