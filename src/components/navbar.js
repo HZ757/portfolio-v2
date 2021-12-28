@@ -5,7 +5,7 @@ import hamburger from '../Assets/Hamburger_icon_white.svg'
 class NavBarButton extends React.Component {
     render() {
         return (
-            <button class="m-2 text-xl text-white">{this.props.text}</button>
+            <button class="m-1.5 text-xl text-white">{this.props.text}</button>
         )
     }
 }
@@ -13,12 +13,12 @@ class NavBarButton extends React.Component {
 class NavBar extends React.Component {
   render() {
     return (
-        <div class="flex flex-row fixed top-0 left-0 right-0 bg-cyan-900 h-12 z-50">
-            <div class="mr-auto ml-5 text-4xl text-white min-w-fit font-medium">
+        <div class="flex flex-row fixed top-0 left-0 right-0 bg-sky-900 h-12 z-50">
+            <div class="mr-auto ml-5 text-4xl text-white min-w-fit font-medium hidden mini:flex">
                 HENRY ZHANG
             </div>
             {/* desktop version */}
-            <div class="ml-auto mr-5 hidden md:flex">
+            <div class="ml-auto hidden md:flex">
                 <NavBarButton text="ABOUT"/>
                 <NavBarButton text="EXPERIENCE"/>
                 <NavBarButton text="EDUCATION"/>
@@ -26,7 +26,7 @@ class NavBar extends React.Component {
                 <NavBarButton text="SKILLS"/>
             </div>
             {/* mobile version */}
-            <div class="ml-auto mr-5 m-2 flex md:hidden">
+            <div class="ml-auto mr-2 flex md:hidden">
                 <button>
                     <img src={hamburger} alt="dropdown"></img>
                 </button>

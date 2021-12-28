@@ -43,7 +43,7 @@ class School extends React.Component {
                             <p>{this.props.data.date}</p>
                         </div>
                     </div>
-                    <div class="m-4 ml-8 md:ml-10">
+                    <div class="md:m-4 ml-8 md:ml-10">
                         <ul class="list-disc text-left">
                             {listInfo}
                         </ul>
@@ -62,7 +62,7 @@ class Education extends React.Component {
         );
 
         return (
-            <div class="w-screen flex flex-col w-11/12 md:w-3/5 mx-auto">
+            <div class="w-screen flex flex-col w-11/12 lg:w-3/5 mx-auto">
                 <hr />
                 <h1 class="self-start text-4xl font-bold my-5">Education</h1>
                 {listItems}

@@ -12,6 +12,15 @@ module.exports = {
         "45rem": "45rem",
       },
     },
+    screens: {
+      'mini': '300px',
+
+      'md': '768px',
+
+      'lg': '1024px',
+
+      'xl': '1280px'
+    },
   },
   plugins: [],
 }
