@@ -2,6 +2,8 @@ import React from "react";
 import '../index.css';
 import CourierU from '../Assets/courierU.jpg';
 import redditLiberation from '../Assets/redditLiberation.png';
+import SSNC from '../Assets/SSNC.jpg';
+import GenSix from '../Assets/gensix.jpg';
 
 const projectArray = [
     {
@@ -13,13 +15,29 @@ const projectArray = [
         backgroundColor: ""
     },
     {
+        imageUrl: SSNC,
+        name: "Success Stories of New Canadians",
+        description: "A place to read, share, and celebrate the successes of new Canadians through blogs of real stories. Created using React and Gatsby for Front-end and Netlify CMS for backend.",
+        demoUrl: "https://immigrant-success-canada.netlify.app/",
+        codeUrl: "https://github.com/PEAR-Impact-Project-Team-2/success-stories-of-new-canadians",
+        backgroundColor: ""
+    },
+    {
         imageUrl: redditLiberation,
         name: "Reddit Liberation",
-        description: "Productivity app focused on eliminating the infinite distraction cycle of Reddit. Allows customized presets based on user subreddit activity.",
+        description: "Productivity focused Google Chrome Extension focused on eliminating the infinite distraction cycle of Reddit while maintaining its productive utility. Allows customized presets based on user subreddit activity.",
         demoUrl: "https://chrome.google.com/webstore/detail/reddit-liberation-feed-bl/fllfmdjhnhhjokhdifhcdbpbfajfnhon",
         codeUrl: "https://github.com/HZ757/reddit-liberation-extension",
         backgroundColor: ""
-    }
+    },
+    {
+        imageUrl: GenSix,
+        name: "Success Stories of New Canadians",
+        description: "A place to read, share, and celebrate the successes of new Canadians through blogs of real stories. Created using React and Gatsby for Front-end and Netlify CMS for backend.",
+        demoUrl: "https://immigrant-success-canada.netlify.app/",
+        codeUrl: "https://github.com/PEAR-Impact-Project-Team-2/success-stories-of-new-canadians",
+        backgroundColor: ""
+    },
 ]
 
 class Project extends React.Component {
