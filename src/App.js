@@ -6,7 +6,7 @@ import { Header } from './components/header';
 import { Experiences } from './components/experience';
 import { Education } from './components/education';
 import { Projects } from './components/projects';
-//import { Skills } from './components/skills';
+import { Skills } from './components/skills';
 import './index.css';
 
 class App extends React.Component {
@@ -18,7 +18,7 @@ class App extends React.Component {
         <Experiences />
         <Education />
         <Projects />
-        {/* <Skills /> */}
+        <Skills />
       </div>
     );
   }

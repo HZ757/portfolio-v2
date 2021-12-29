@@ -1,7 +1,7 @@
 import React from "react";
 import '../index.css';
-import uwLogo from '../Assets/UniversityOfWaterloo.avif';
-import uOfTLogo from '../Assets/UofTlogo.avif';
+import uwLogo from '../Assets/UniversityOfWaterloo.webp';
+import uOfTLogo from '../Assets/UofTlogo.webp';
 
 const experienceArray = [
     {

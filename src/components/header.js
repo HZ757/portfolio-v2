@@ -1,6 +1,6 @@
 import React from "react";
 import '../index.css';
-import profilePic from '../Assets/profilepic.avif'
+import profilePic from '../Assets/profilepic.webp'
 import githubSVG from '../Assets/githubSvg.svg'
 import linkedInSVG from '../Assets/linkedInSvg.svg'
 import resume from '../Assets/Resume.pdf'
