@@ -9,7 +9,7 @@ class Header extends React.Component {
   render() {
     return (
         <div class="h-45rem md:h-40rem bg-sky-900 mt-12 flex flex-col">
-          <h1 class="text-white text-4xl sm:text-6xl font-bold mt-4">Sorry for the confusion, Reddit Liberation Extension users, I updated my portfolio and it broke, but this will be fixed when the update is published (hopefully today)</h1>
+          <h1 class="text-white text-4xl sm:text-6xl font-bold mt-4">Sorry for the confusion, Reddit Liberation Extension users, I updated my portfolio and the redirect broke (app still works), but this will be fixed when the update is published (hopefully today)</h1>
           <img src={profilePic} alt="profile pic" class="rounded-full object-contain h-48 w-48 self-center mt-8" />
           <h1 class="text-white text-4xl sm:text-6xl font-bold mt-4">Henry Zhang</h1>
           <h1 class="text-white text-2xl sm:text-4xl mt-4">Full-Stack Software Engineer</h1>
