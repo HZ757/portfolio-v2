@@ -48,7 +48,7 @@ class Project extends React.Component {
     render() {
         return (
             <div class="bg-sky-100 my-4 lg:h-72 rounded-xl flex flex-col md:flex-row">
-                    <div class="w-full md:w-2/3 lg:w-3/5 xl:w-1/3 flex justify-center">
+                    <div class="w-full md:w-2/3 lg:w-1/3 flex justify-center">
                         <img class="m-2 w-70 h-70" src={this.props.data.imageUrl} alt={this.props.data.name}/>
                     </div>
                     <div class="w-fit lg:w-2/3 text-left m-6">
