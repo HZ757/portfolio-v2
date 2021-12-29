@@ -21,7 +21,7 @@ const experienceArray = [
         info: [
             "Tech Stack: Firebase, Express.js, Node.js, JavaScript, Google Drive API, Microsoft Azure, Microsoft Graph API",
             "Developed Secure File Sharing application that allows users to send and receive files on google drive with a key that is not reused or stored.",
-            "Created API for file sharing and account maintentence features (uploading, sharing and downloading files, as well as Multi-factor authentication, changing password, phone number, security questions)",
+            "Created API for file sharing and account maintenance features (uploading, sharing and downloading files, as well as Multi-factor authentication, changing password, phone number, security questions)",
             "Developed Front-End web app for the Secure File Sharing application",
             "Deployed web app and real-time database using Firebase and node.js",
             "Developed Microsoft OneDrive version of the secure file sharing app, increasing compatibility",
