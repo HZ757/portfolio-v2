@@ -4,6 +4,7 @@ import CourierU from '../Assets/courierU.jpg';
 import redditLiberation from '../Assets/redditLiberation.png';
 import SSNC from '../Assets/SSNC.jpg';
 import GenSix from '../Assets/gensix.jpg';
+import Radiius from '../Assets/Radiius.jpg';
 
 const projectArray = [
     {
@@ -12,7 +13,6 @@ const projectArray = [
         description: "A tool for food banks and charities to efficiently deliver supplies to those in need using optimized delivery planning and a service to request supplies. Built using MongoDB and Radar.",
         demoUrl: "https://courieru.herokuapp.com/index.html",
         codeUrl: "https://github.com/l3n0ire/courieru",
-        backgroundColor: ""
     },
     {
         imageUrl: SSNC,
@@ -20,7 +20,13 @@ const projectArray = [
         description: "A place to read, share, and celebrate the successes of new Canadians through blogs of real stories. Created using React and Gatsby for Front-end and Netlify CMS for backend.",
         demoUrl: "https://immigrant-success-canada.netlify.app/",
         codeUrl: "https://github.com/PEAR-Impact-Project-Team-2/success-stories-of-new-canadians",
-        backgroundColor: ""
+    },
+    {
+        imageUrl: Radiius,
+        name: "Radiius Business Dashboard",
+        description: "web-based business dashboard designed for businesses to manage their onlineprofiles, promotions, customer relations on the main Radiius App.",
+        demoUrl: "https://app.radiius.ca/#/index",
+        codeUrl: "https://github.com/HZ757/radiius-advert-portal"
     },
     {
         imageUrl: redditLiberation,
@@ -28,15 +34,13 @@ const projectArray = [
         description: "Productivity focused Google Chrome Extension focused on eliminating the infinite distraction cycle of Reddit while maintaining its productive utility. Allows customized presets based on user subreddit activity.",
         demoUrl: "https://chrome.google.com/webstore/detail/reddit-liberation-feed-bl/fllfmdjhnhhjokhdifhcdbpbfajfnhon",
         codeUrl: "https://github.com/HZ757/reddit-liberation-extension",
-        backgroundColor: ""
     },
     {
         imageUrl: GenSix,
-        name: "Success Stories of New Canadians",
-        description: "A place to read, share, and celebrate the successes of new Canadians through blogs of real stories. Created using React and Gatsby for Front-end and Netlify CMS for backend.",
-        demoUrl: "https://immigrant-success-canada.netlify.app/",
-        codeUrl: "https://github.com/PEAR-Impact-Project-Team-2/success-stories-of-new-canadians",
-        backgroundColor: ""
+        name: "GenSix Company Website",
+        description: "Company Website for GenSix, a Junior Achievement company. Showcases company sponsors and the team.",
+        demoUrl: "https://hz757.github.io/gen-six-website/",
+        codeUrl: "https://github.com/HZ757/gen-six-website",
     },
 ]
 
