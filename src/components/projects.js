@@ -1,10 +1,10 @@
 import React from "react";
 import '../index.css';
-import CourierU from '../Assets/courierU.jpg';
-import redditLiberation from '../Assets/redditLiberation.png';
-import SSNC from '../Assets/SSNC.jpg';
-import GenSix from '../Assets/gensix.jpg';
-import Radiius from '../Assets/Radiius.jpg';
+import CourierU from '../Assets/courierU.avif';
+import redditLiberation from '../Assets/redditLiberation.avif';
+import SSNC from '../Assets/SSNC.avif';
+import GenSix from '../Assets/gensix.avif';
+import Radiius from '../Assets/Radiius.avif';
 
 const projectArray = [
     {
