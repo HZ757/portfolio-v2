@@ -32,8 +32,8 @@ const experienceArray = [
 
 class Experience extends React.Component {
     render() {
-        const listInfo = this.props.data.info.map((point) => 
-            <li>{point}</li>
+        const listInfo = this.props.data.info.map((point, index) => 
+            <li key={index}>{point}</li>
         );
 
         return (
