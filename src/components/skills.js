@@ -2,31 +2,28 @@ import React from "react";
 import '../index.css';
 
 const skillArray = [
+    ["Languages", "JavaScript, C++, C, Python, HTML, CSS"],
+    ["Frameworks and Libraries", "Node.js, Express.js, Next.js, React.js, Redux, Vue.js, jQuery, Bootstrap, Tailwind CSS, NumPy"],
+    ["Databases", "MongoDB, Firebase"],
+    ["Tools", "Linux, Git, Jura, Heroku, Vercel, Netlify CMS"],
+    ["Concepts", "RESTful API, Object Oriented Programming, Agile Scrum"],
 ]
 
 class Skill extends React.Component {
     render() {
         return (
-            <div class="bg-sky-100 my-4 lg:h-72 rounded-xl flex flex-col md:flex-row">
-                    <div class="w-full md:w-2/3 lg:w-3/5 xl:w-1/3 flex justify-center">
-                        <img class="m-2 w-70 h-70" src={this.props.data.imageUrl} alt={this.props.data.name}/>
-                    </div>
-                    <div class="w-fit lg:w-2/3 text-left m-6">
-                        <h1 class="text-4xl font-bold">{this.props.data.name}</h1>
-                        <p class="my-4 h-1/2">{this.props.data.description}</p>
-                        <div class="flex flex-row">
-                            <button class="mr-2 bg-sky-900 h-10 rounded-xl">
-                                <a href={this.props.data.demoUrl} class="mx-3 text-white font-bold">
-                                    View Demo
-                                </a>
-                            </button>
-                            <button class="ml-2 bg-sky-900 h-10 rounded-xl">
-                                <a href={this.props.data.codeUrl} class="mx-3 text-white font-bold">
-                                    View Code
-                                </a>
-                            </button>
-                        </div>
-                    </div>
+            <div class="bg-sky-100 my-2 rounded-xl flex flex-col">
+                <div class="rounded-t-lg bg-gradient-to-r from-amber-200 text-left ">
+                    <h1 class="font-bold m-2">
+                        {this.props.data[0]}
+                    </h1>
+                </div>
+
+                <div class="text-left overflow-hidden">
+                    <p class="m-2">
+                        {this.props.data[1]}
+                    </p>
+                </div>
             </div>
         );
     }
