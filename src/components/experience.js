@@ -38,6 +38,7 @@ class Experience extends React.Component {
 
         return (
             <div class="flex flex-row my-2">
+                <div class="h-0 mt-neg" id="EXPERIENCE"></div>
                 <img src={this.props.data.image} alt={this.props.data.name} class="hidden md:inline h-20"/>
                 <div class="w-full flex flex-col">
                     <div class="w-full md:ml-4 flex flex-col md:flex-row">

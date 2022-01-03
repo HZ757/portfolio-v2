@@ -5,7 +5,7 @@ import hamburger from '../Assets/Hamburger_icon_white.svg'
 class NavBarButton extends React.Component {
     render() {
         return (
-            <button class="m-1.5 text-xl text-white">{this.props.text}</button>
+            <a class="m-1.5 text-xl text-white" href={'#' + this.props.text}>{this.props.text}</a>
         )
     }
 }

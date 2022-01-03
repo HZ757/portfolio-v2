@@ -80,7 +80,7 @@ class Projects extends React.Component {
         );
 
         return (
-            <div class="w-screen flex flex-col w-11/12 xl:w-3/5 mx-auto">
+            <div class="w-screen flex flex-col w-11/12 xl:w-3/5 mx-auto" id="PROJECTS">
                 <hr />
                 <h1 class="self-start text-4xl font-bold my-5">Projects</h1>
                 {listItems}

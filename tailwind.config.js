@@ -11,6 +11,9 @@ module.exports = {
         "40rem": "40rem",
         "45rem": "45rem",
       },
+      spacing: {
+        'neg': '-10rem',
+      }
     },
     screens: {
       'mini': '300px',
