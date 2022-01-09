@@ -31,7 +31,7 @@ class School extends React.Component {
         );
 
         return (
-            <div class="flex flex-row my-2">
+            <div class="flex flex-row my-2" id="education">
                 <div class="h-0 mt-neg" id="EDUCATION"></div>
                 <img src={this.props.data.image} alt={this.props.data.name} class="hidden md:inline h-20 w-20"/>
                 <div class="w-full flex flex-col">

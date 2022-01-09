@@ -1,6 +1,7 @@
 import React from "react";
 import '../index.css';
 import hamburger from '../Assets/Hamburger_icon_white.svg'
+import Scrollspy from 'react-scrollspy'
 
 class NavBarButton extends React.Component {
     render() {
@@ -18,13 +19,13 @@ class NavBar extends React.Component {
                 HENRY ZHANG
             </div>
             {/* desktop version */}
-            <div class="ml-auto hidden md:flex">
-                <NavBarButton text="ABOUT"/>
-                <NavBarButton text="EXPERIENCE"/>
-                <NavBarButton text="EDUCATION"/>
-                <NavBarButton text="PROJECTS"/>
-                <NavBarButton text="SKILLS"/>
-            </div>
+            <Scrollspy className="ml-auto my-auto hidden md:flex" items={ ['ABOUT', 'experience', 'education', 'PROJECTS', 'SKILLS'] } currentClassName="border-b-2">
+                <li><NavBarButton text="ABOUT"/></li>
+                <li><NavBarButton text="EXPERIENCE"/></li>
+                <li><NavBarButton text="EDUCATION"/></li>
+                <li><NavBarButton text="PROJECTS"/></li>
+                <li><NavBarButton text="SKILLS"/></li>
+            </Scrollspy>
             {/* mobile version */}
             <div class="ml-auto mr-2 flex md:hidden">
                 <button>
