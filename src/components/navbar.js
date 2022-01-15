@@ -4,9 +4,21 @@ import hamburger from '../Assets/Hamburger_icon_white.svg'
 import Scrollspy from 'react-scrollspy'
 
 class NavBarButton extends React.Component {
+    clickHamburger()
+    {
+        var x = document.getElementById("mobileNavBar")
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+       
+    }
+
     render() {
         return (
-            <a class="m-1.5 text-xl text-white" href={'#' + this.props.text}>{this.props.text}</a>
+            <a onClick={this.clickHamburger} class="m-1.5 text-xl text-white" href={'#' + this.props.text}>{this.props.text}</a>
         )
     }
 }
@@ -14,15 +26,13 @@ class NavBarButton extends React.Component {
 class NavBar extends React.Component {
     clickHamburger()
     {
-        const a = document.getElementById("mobileNavBar").style.display
-        if ( a === 'block' )
-        {
-            document.getElementById("mobileNavBar").style.display = "hidden";
-        }
-        else
-        {
-            document.getElementById("mobileNavBar").style.display = "block";
-        }
+        var x = document.getElementById("mobileNavBar")
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
        
     }
 
