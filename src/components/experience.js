@@ -10,7 +10,10 @@ const experienceArray = [
         position: "Software Developer Intern",
         date: "Jan 2022 - Present",
         image: awLogo,
-        info: []
+        info: [
+            "Tech Stack: Python, Django, Linux, Bash",
+            "Part of the Managed Risk team in the Research and Development department"
+        ]
     },
     {
         name: "University of Waterloo",
