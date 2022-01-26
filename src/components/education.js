@@ -7,7 +7,7 @@ const experienceArray = [
     {
         name: "University of Waterloo",
         position: "Bachelors of Computer Science",
-        date: "2020 - 2024",
+        date: "2020 - Present",
         image: uwLogo,
         info: [
             
