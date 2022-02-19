@@ -11,7 +11,7 @@ const experienceArray = [
         date: "Jan 2022 - Present",
         image: awLogo,
         info: [
-            "Tech Stack: Python, Django, Linux, Bash",
+            "Tech Stack: Python, Elasticsearch, Django, Linux, Bash",
             "Part of the Managed Risk team in the Research and Development department"
         ]
     },
