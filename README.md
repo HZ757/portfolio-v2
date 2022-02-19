@@ -1,6 +1,8 @@
 # Current Deployed Website
 link: https://www.henryz.dev/
 
+Using: React, Vercel
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
