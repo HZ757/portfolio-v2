@@ -1,7 +1,8 @@
 # Current Deployed Website
 link: https://www.henryz.dev/
 
-Using: React, Vercel
+Tech Stack: React, Vercel
+Hosted on Google Domains
 
 # Getting Started with Create React App
 
