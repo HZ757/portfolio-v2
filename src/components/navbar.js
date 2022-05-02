@@ -2,18 +2,21 @@ import React from "react";
 import '../index.css';
 import hamburger from '../Assets/Hamburger_icon_white.svg'
 import Scrollspy from 'react-scrollspy'
+import { isMobile } from "react-device-detect";
 
 class NavBarButton extends React.Component {
     clickHamburger()
     {
         var x = document.getElementById("mobileNavBar")
 
-        if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
-       
+        if (isMobile)
+        {
+            if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+        }
     }
 
     render() {
