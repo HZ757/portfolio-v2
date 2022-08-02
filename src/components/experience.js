@@ -1,18 +1,33 @@
 import React from "react";
 import '../index.css';
+import msftLogo from '../Assets/Microsoft_logo.svg';
 import awLogo from '../Assets/ArcticWolfLogo.webp';
 import uwLogo from '../Assets/UniversityOfWaterloo.webp';
 
 const experienceArray = [
     {
+        name: "Microsoft Corporation",
+        companyUrl: "https://arcticwolf.com/",
+        position: "Software Engineer Intern",
+        date: "Jun 2022 - Sep 2022",
+        image: msftLogo,
+        info: [
+            "Tech Stack: C#, Azure Application Insights, GraphQL, WBXml, Microsoft Geneva, Kusto Query Language, Jarvis, Azure DevOps",
+            "Created telemetry using Azure Application insights to track GraphQL error info of API endpoints serving over 350 million active users.",
+            "Developed dashboards using Jarvis to monitor and improve latency and reliability for Outlook API Gateway."
+        ]
+    },
+    {
         name: "Arctic Wolf Networks",
         companyUrl: "https://arcticwolf.com/",
         position: "Software Developer Intern",
-        date: "Jan 2022 - Present",
+        date: "Jan 2022 - Apr 2022",
         image: awLogo,
         info: [
-            "Tech Stack: Python, Elasticsearch, Django, Linux, Bash",
-            "Part of the Managed Risk team in the Research and Development department"
+            "Tech Stack: Python, Django, Docker, Elasticsearch, Jenkins, Amazon CloudWatch, Bash, Linux, Git, JIRA",
+            "Developed service that crossreferences data from different sources to identify and classify customer devices.",
+            "Created automation tools to streamline workflow for Security Engineers and increase security coverage.",
+            "Built customizable report generation template using Django for customer security risk metrics."
         ]
     },
     {
