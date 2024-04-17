@@ -19,7 +19,7 @@ class App extends React.Component {
         <Experiences />
         <Education />
         <Projects />
-        <Skills />
+        {/*<Skills />*/}
         <Footer />
       </div>
     );

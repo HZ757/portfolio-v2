@@ -47,12 +47,12 @@ class NavBar extends React.Component {
                         HENRY ZHANG
                     </div>
                     {/* desktop version */}
-                    <Scrollspy className="ml-auto my-auto hidden md:flex" items={ ['ABOUT', 'experience', 'education', 'PROJECTS', 'SKILLS'] } currentClassName="border-b-2">
+                    <Scrollspy className="ml-auto my-auto hidden md:flex" items={ ['ABOUT', 'experience', 'education', 'PROJECTS'] } currentClassName="border-b-2">
                         <li><NavBarButton text="ABOUT"/></li>
                         <li><NavBarButton text="EXPERIENCE"/></li>
                         <li><NavBarButton text="EDUCATION"/></li>
                         <li><NavBarButton text="PROJECTS"/></li>
-                        <li><NavBarButton text="SKILLS"/></li>
+                        {/* <li><NavBarButton text="SKILLS"/></li> */}
                     </Scrollspy>
                     {/* mobile version */}
                     <div class="ml-auto mr-2 flex md:hidden">
@@ -66,7 +66,7 @@ class NavBar extends React.Component {
                     <li><NavBarButton text="EXPERIENCE"/></li>
                     <li><NavBarButton text="EDUCATION"/></li>
                     <li><NavBarButton text="PROJECTS"/></li>
-                    <li><NavBarButton text="SKILLS"/></li>
+                    {/* <li><NavBarButton text="SKILLS"/></li> */}
                 </ul>
             </div>
         );
