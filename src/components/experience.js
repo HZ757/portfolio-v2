@@ -39,7 +39,6 @@ const experienceArray = [
         image: awLogo,
         teamInfo: "🛡️ Managed Risk Team",
         info: [
-            "Tech Stack: Python, Django, Docker, Elasticsearch, Jenkins, Amazon CloudWatch, Bash, Linux, Git, JIRA",
             "Developed service that crossreferences data from different sources to identify and classify customer devices.",
             "Created automation tools to streamline workflow for Security Engineers and increase security coverage.",
             "Built customizable report generation template using Django for customer security risk metrics."
@@ -53,7 +52,6 @@ const experienceArray = [
         image: uwLogo,
         teamInfo: "🔐 Secure File Sharing",
         info: [
-            "Tech Stack: Firebase, Express.js, Node.js, JavaScript, Google Drive API, Microsoft Azure, Microsoft Graph API",
             "Developed Secure File Sharing application that allows users to send and receive files on google drive with a key that is not reused or stored.",
             "Created API for file sharing and account maintenance features (uploading, sharing and downloading files, as well as Multi-factor authentication, changing password, phone number, security questions)",
             "Developed Front-End web app for the Secure File Sharing application",
