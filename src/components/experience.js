@@ -9,6 +9,18 @@ const experienceArray = [
         name: "Microsoft Corporation",
         companyUrl: "https://www.microsoft.com/",
         position: "Software Engineer Intern",
+        date: "May 2023 - Aug 2023",
+        image: msftLogo,
+        info: [
+            "Tech Stack: C#, Azure Application Insights, GraphQL, WBXml, Microsoft Geneva, Kusto Query Language, Jarvis, Azure DevOps",
+            "Created telemetry using Azure Application insights to track GraphQL error info of API endpoints serving over 350 million active users.",
+            "Developed dashboards using Jarvis to monitor and improve latency and reliability for Outlook API Gateway."
+        ]
+    },
+    {
+        name: "Microsoft Corporation",
+        companyUrl: "https://www.microsoft.com/",
+        position: "Software Engineer Intern",
         date: "Jun 2022 - Sep 2022",
         image: msftLogo,
         info: [
@@ -20,7 +32,7 @@ const experienceArray = [
     {
         name: "Arctic Wolf Networks",
         companyUrl: "https://arcticwolf.com/",
-        position: "Software Developer Intern",
+        position: "Software Developer Co-op",
         date: "Jan 2022 - Apr 2022",
         image: awLogo,
         info: [
@@ -33,7 +45,7 @@ const experienceArray = [
     {
         name: "University of Waterloo",
         companyUrl: "https://uwaterloo.ca/",
-        position: "Full-Stack Software Engineer",
+        position: "Software Developer Co-op",
         date: "May 2021 - Dec 2021",
         image: uwLogo,
         info: [
