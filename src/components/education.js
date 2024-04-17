@@ -1,13 +1,12 @@
 import React from "react";
 import '../index.css';
 import uwLogo from '../Assets/UniversityOfWaterloo.webp';
-import uOfTLogo from '../Assets/UofTlogo.webp';
 
 const experienceArray = [
     {
         name: "University of Waterloo",
         position: "Bachelors of Computer Science",
-        date: "2020 - Present",
+        date: "September 2020 - June 2024",
         image: uwLogo,
         info: [
             "NSERC Undergraduate Student Research Award (2021)"

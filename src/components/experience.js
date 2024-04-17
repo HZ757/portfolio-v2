@@ -12,9 +12,9 @@ const experienceArray = [
         date: "May 2023 - Aug 2023",
         image: msftLogo,
         info: [
-            "Tech Stack: C#, Azure Application Insights, GraphQL, WBXml, Microsoft Geneva, Kusto Query Language, Jarvis, Azure DevOps",
-            "Created telemetry using Azure Application insights to track GraphQL error info of API endpoints serving over 350 million active users.",
-            "Developed dashboards using Jarvis to monitor and improve latency and reliability for Outlook API Gateway."
+            "Designed and developed prompt management system with an ObjectStore Database cutting worldwide GPT-4 prompt deployment time for Outlook Copilot from 2 weeks to 4 minutes (99.9% improvement)",
+            "Added support for versioning, A/B testing and automated roll-out/rollback of Semantic Kernel prompt templates to facilitate long term iterative improvements in the quality of Copilot responses",
+            "Implemented caching to greatly reduce reads on ObjectStore database and decrease average request latency"
         ]
     },
     {
