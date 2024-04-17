@@ -11,6 +11,7 @@ const experienceArray = [
         position: "Software Engineer Intern",
         date: "May 2023 - Aug 2023",
         image: msftLogo,
+        teamInfo: "🤖 Outlook Copilot Team",
         info: [
             "Designed and developed prompt management system with an ObjectStore Database cutting worldwide GPT-4 prompt deployment time for Outlook Copilot from 2 weeks to 4 minutes (99.9% improvement)",
             "Added support for versioning, A/B testing and automated roll-out/rollback of Semantic Kernel prompt templates to facilitate long term iterative improvements in the quality of Copilot responses",
@@ -23,8 +24,9 @@ const experienceArray = [
         position: "Software Engineer Intern",
         date: "Jun 2022 - Sep 2022",
         image: msftLogo,
+        teamInfo: "📧 Outlook API Gateway Team",
         info: [
-            "Tech Stack: C#, Azure Application Insights, GraphQL, WBXml, Microsoft Geneva, Kusto Query Language, Jarvis, Azure DevOps",
+            "Developed telemetry for measuring latency and reliability of Outlook's backend/middleware, improving on existing metrics by reducing false positive rate by 98%.",
             "Created telemetry using Azure Application insights to track GraphQL error info of API endpoints serving over 350 million active users.",
             "Developed dashboards using Jarvis to monitor and improve latency and reliability for Outlook API Gateway."
         ]
@@ -35,6 +37,7 @@ const experienceArray = [
         position: "Software Developer Co-op",
         date: "Jan 2022 - Apr 2022",
         image: awLogo,
+        teamInfo: "🛡️ Managed Risk Team",
         info: [
             "Tech Stack: Python, Django, Docker, Elasticsearch, Jenkins, Amazon CloudWatch, Bash, Linux, Git, JIRA",
             "Developed service that crossreferences data from different sources to identify and classify customer devices.",
@@ -48,6 +51,7 @@ const experienceArray = [
         position: "Software Developer Co-op",
         date: "May 2021 - Dec 2021",
         image: uwLogo,
+        teamInfo: "🔐 Secure File Sharing",
         info: [
             "Tech Stack: Firebase, Express.js, Node.js, JavaScript, Google Drive API, Microsoft Azure, Microsoft Graph API",
             "Developed Secure File Sharing application that allows users to send and receive files on google drive with a key that is not reused or stored.",
@@ -75,6 +79,7 @@ class Experience extends React.Component {
                         <div class="flex flex-col">
                             <p class="mr-auto text-2xl md:text-2xl font-bold text-left">{this.props.data.position}</p>
                             <a href={this.props.data.companyUrl} class="mr-auto font-bold text-blue-800">{this.props.data.name}</a>
+                            <p class="mr-auto">{this.props.data.teamInfo}</p>
                         </div>
                         <div class="mr-auto md:ml-auto md:mr-0">
                             <p>{this.props.data.date}</p>
@@ -100,7 +105,7 @@ class Experiences extends React.Component {
 
         return (
             <div class="w-screen flex flex-col w-11/12 xl:w-3/5 mx-auto">
-                <h1 class="self-start text-4xl font-bold my-5">Work Experience</h1>
+                <h1 class="self-start text-4xl font-bold my-5">Experience</h1>
                 {listItems}
             </div>
         );
