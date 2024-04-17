@@ -7,7 +7,7 @@ import uwLogo from '../Assets/UniversityOfWaterloo.webp';
 const experienceArray = [
     {
         name: "Microsoft Corporation",
-        companyUrl: "https://arcticwolf.com/",
+        companyUrl: "https://www.microsoft.com/",
         position: "Software Engineer Intern",
         date: "Jun 2022 - Sep 2022",
         image: msftLogo,

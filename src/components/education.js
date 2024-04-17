@@ -10,16 +10,7 @@ const experienceArray = [
         date: "2020 - Present",
         image: uwLogo,
         info: [
-            
-        ]
-    },
-    {
-        name: "University of Toronto",
-        position: "Computer Science",
-        date: "2019 - 2020",
-        image: uOfTLogo,
-        info: [
-            "Completed 5 credits towards a BsC in Computer Science, which were transferred to University of Waterloo"
+            "NSERC Undergraduate Student Research Award (2021)"
         ]
     }
 ]
