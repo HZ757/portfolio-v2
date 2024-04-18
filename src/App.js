@@ -6,7 +6,6 @@ import { Header } from './components/header';
 import { Experiences } from './components/experience';
 import { Education } from './components/education';
 import { Projects } from './components/projects';
-import { Skills } from './components/skills';
 import { Footer } from './components/footer';
 import './index.css';
 
