@@ -39,9 +39,9 @@ const experienceArray = [
         image: awLogo,
         teamInfo: "🛡️ Managed Risk Team",
         info: [
-            "Developed service that crossreferences data from different sources to identify and classify customer devices.",
-            "Created automation tools to streamline workflow for Security Engineers and increase security coverage.",
-            "Built customizable report generation template using Django for customer security risk metrics."
+            "Created data cross-referencing service to find and classify devices on client networks using Elasticsearch over ingested logs of 2000+ enterprise networks allowing security engineers to eliminate overlooked security gaps",
+            "Shortened on-boarding process for new customers and increased security coverage by developing Python scripts for automating on-boarding workflow tasks",
+            "Built report generation template for security metrics with Django serving 4000+ businesses"
         ]
     },
     {
@@ -52,12 +52,9 @@ const experienceArray = [
         image: uwLogo,
         teamInfo: "🔐 Secure File Sharing",
         info: [
-            "Developed Secure File Sharing application that allows users to send and receive files on google drive with a key that is not reused or stored.",
-            "Created API for file sharing and account maintenance features (uploading, sharing and downloading files, as well as Multi-factor authentication, changing password, phone number, security questions)",
-            "Developed Front-End web app for the Secure File Sharing application",
-            "Deployed web app and real-time database using Firebase and node.js",
-            "Developed Microsoft OneDrive version of the secure file sharing app, increasing compatibility",
-            "Instructed arriving co-op students about web development with JavaScript frameworks",
+            "Launched Secure File Sharing web application allowing users to share files with a key that is not reused or stored, applying on research by Prof. Amir Khandani",
+            "Deployed real-time database using Firebase and node.js, integrating Google Drive API and Microsoft Graph API",
+            "Enabled file sharing service to support sharing using Google Drive and Microsoft OneDrive"
         ]
     }
 ]
