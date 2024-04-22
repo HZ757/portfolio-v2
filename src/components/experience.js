@@ -13,7 +13,7 @@ const experienceArray = [
         image: msftLogo,
         teamInfo: "🤖 Outlook Copilot Team",
         info: [
-            "Designed and developed prompt management system with an ObjectStore Database cutting worldwide GPT-4 prompt deployment time for Outlook Copilot from 2 weeks to 4 minutes (99.9% improvement)",
+            "Designed and developed GenAI prompt management system with an ObjectStore Database cutting worldwide GPT-4 prompt deployment time for Outlook Copilot from 2 weeks to 4 minutes (99.9% improvement)",
             "Added support for versioning, A/B testing and automated roll-out/rollback of Semantic Kernel prompt templates to facilitate long term iterative improvements in the quality of Copilot responses",
             "Implemented caching to greatly reduce reads on ObjectStore database and decrease average request latency"
         ]
